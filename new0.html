@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/stylesar1.css">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .list{
+            font-size: medium;
+        
+        }
+    </style>
+    <title>Augmented Reality Edu</title>
+</head>
+
+<body>
+
+    <!--==================== HEADER ====================-->
+     <!--==================== HEADER ====================-->
+     <header class="header" id="header">
+        <nav class="nav container">
+            <a href="./index.html" class="nav__logo">
+                <img src="assets/lg1.png" alt="" class="nav__logo-img"> Augmented Reality Edu
+    
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ol class="nav__list">
+                             
+                    <li><a href="new0.html" class="nav__link active-link">Piston Engine Assembly</a></li>
+                    <li  class="nav__item"><a href="./valve.html" class="nav__link active-link">Cylinders</a></li>
+                    <li><a href="index.html" class="nav__link active-link">Carriage</a></li>
+                    <li><a href="index.html" class="nav__link active-link">Crankshaft</a></li>
+                    <li><a href="index.html" class="nav__link active-link">Valve Gear</a></li>
+                    <li><a href="index.html" class="nav__link active-link">Steam Chest</a></li>
+                    <li><a href="index.html" class="nav__link active-link">Connecting Rods</a></li>
+                    <li><a href="index.html" class="nav__link active-link">Flywheel</a></li>
+                    <li><a href="index.html" class="nav__link active-link">Governor</a></li>
+                </ol>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <img src="assets/img/nav-img.png" alt="" class="nav__img">
+            </div>
+
+            <div class="list nav__logo" id="nav-toggle">
+                List
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <div id="content">
+            <h2>Piston Engine Assembly</h2>
+        </div>
+
+                    <!-- 3D objsect -->
+            <!-- This inserts the 3D object inside the aside container -->
+            <model-viewer src="assets/assembly.glb" alt="pk_example" auto-rotate camera-controls ar ios-src="assets/Lathefinal">
+            </model-viewer>
+
+            <div class="labButtons">
+                <!-- <div class="home__buttons">
+                    <a href="./new.html" class="button--link button--flex"> <i class='bx bx-left-arrow-alt button__icon'></i>Previous</a>
+                </div> -->
+                <div class="home__buttons">
+                    <a href="./valve.html" class="button--link button--flex">Next <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                </div>
+            </div>
+
+        <!--==================== FOOTER ====================-->
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <img src="assets/lg2.png" alt="" class="footer__logo-img"> Augmented Reality Edu
+                    </a>
+
+                    <p class="footer__description"></p>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/learnthroughar" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://www.instagram.com/learnthrough.ar/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/learn-through-ar-196724241/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-linkedin'></i>
+                            <a href="https://www.youtube.com/channel/UCpE0hm9iatEbKptmtsC0F5A" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-youtube'></i>
+                            </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <img src="assets/ar1.png" alt="" class="footer__img-one">
+
+        </footer>
+
+
+     
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
